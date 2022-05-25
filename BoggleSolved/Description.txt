@@ -1,0 +1,1 @@
+These files take two command line arguments: the first being the dictionary.txt file and the second being the game board. 
