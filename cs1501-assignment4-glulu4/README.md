@@ -249,32 +249,3 @@ path is an ArrayList<Route> of Route
 
 For each of the "shortest path" searches listed above, if multiple paths "tie" for the shortest, you should return **all** of them.
 
-## Submission Requirements
-
-You must submit to Gradescope at least the following file:
-1.	`AirlineSystem.java`
-
-The idea from your submission is that the autograder can compile and run your programs from the command line WITHOUT ANY additional files or changes, so be sure to test it thoroughly before submitting it. If the autograder cannot compile or run your submitted code it will be graded as if the program does not work.
-
-Note: If you use an IDE such as NetBeans, Eclipse, or IntelliJ, to develop your programs, make sure they will compile and run on the command-line before submitting – this may require some modifications to your program (such as removing some package information).
-
-## Rubrics
-
-__*Please note that if an autograder is available, its score will be used as a guidance for the TA, not as an official final score*__.
-
-Please also note that the autograder rubrics are the definitive rubrics for the assignment. The rubrics below will be used by the TA to assign partial credit in case your code scored less than 40% of the autograder score. If your code is manually graded for partial credit, the maximum you can get for the autograded part is 60%.
-
-
-Item|Points
-----|------|
-(**Mandatory**) `loadRoutes`|	12
-(**Mandatory**) `retrieveCityNames`|	12
-(**Mandatory**) `retrieveDirectRoutesFrom`|	12
-`fewestStopsItinerary`|	12
-`shortestDistanceItinerary`|	12
-`cheapestItinerary`|	8
-`cheapestItinerary` with transit | 8
-`getMSTs`|	8
-`tripsWithin` with a city and a budget | 8 
-`tripsWithin` with budget only|	8
-Extra Credit|	10 points
